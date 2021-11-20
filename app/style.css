@@ -9,3 +9,14 @@
     --white-accent: hsl(0, 0%, 100%);
 
 }
+
+body{
+    background-color: var(--very-dark-blue-main);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem;
+
+}
+
+.main-card{
+    background-color: white;
+}
