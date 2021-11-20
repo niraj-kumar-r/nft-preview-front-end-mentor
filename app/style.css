@@ -1,5 +1,4 @@
 :root{
-    box-sizing: border-box;
 
     --Soft-blue: hsl(215, 51%, 70%);
     --Cyan: hsl(178, 100%, 50%);
@@ -10,10 +9,18 @@
 
 }
 
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
 body{
     background-color: var(--very-dark-blue-main);
     font-family: 'Outfit', sans-serif;
     font-size: 1.125rem;
+    color: var(--Soft-blue);
+    font-weight: 300;
 
 }
 
@@ -41,4 +48,17 @@ body{
     display: block; 
     */
 
+}
+
+.main-head{
+    color: var(--white-accent);
+    font-weight: 600;
+    width: 16rem;
+    margin: auto;
+}
+
+.description{
+    font-weight: 300;
+    width: 16rem;
+    margin: 2rem auto;
 }
