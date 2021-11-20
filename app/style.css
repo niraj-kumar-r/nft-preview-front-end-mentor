@@ -18,5 +18,27 @@ body{
 }
 
 .main-card{
-    background-color: white;
+    background-color: var(--very-dark-blue-card);
+    width: 18.5rem;
+    margin: 5rem auto;
+    padding-top: 1.25rem;
+
+    border-radius: 0.5rem;
+}
+
+.image-equilibrium{
+    /* border: 1.5rem solid red; */
+    display: block;
+    width: 16rem;
+    margin: 0rem auto 2rem;
+
+    border-radius: 0.5rem;
+    
+
+    /* 
+    MARGIN AUTO WAS NOT WORKING FOR THE IMAGE
+    DUE TO DISPLAY INLINE, FOR IT TO BE CENTRED IN A DIV USE
+    display: block; 
+    */
+
 }
