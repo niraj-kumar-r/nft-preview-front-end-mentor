@@ -69,22 +69,40 @@ body{
 .nft-info{
     width: 16.5rem;
     margin: auto;
-
+    /* background-color: blue; */
 }
 
 .eth-amount{
-    background-color: black;
+    /* background-color: black; */
     display: inline-block;
     color: var(--Cyan);
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+
+}
+
+.eth-icon{
+    display: inline-block;
+    height: 0.9rem;
+    margin-right: 0.2rem;
 
 }
 
 .days-left{
-    background-color: black;
+    /* background-color: black; */
     display: inline-block;
-    margin: auto;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 400;
+    width: 5.4rem;
+    margin-left: 5.7rem;
+    
+}
+
+.clock-icon{
+    display: inline-block;
+    height: 0.9rem;
+    margin-right: 0.3rem;
+    vertical-align: sub;
+
 }
