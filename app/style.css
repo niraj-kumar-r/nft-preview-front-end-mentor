@@ -106,3 +106,12 @@ body{
     vertical-align: sub;
 
 }
+
+.horizontal-line{
+    width: 16.5rem;
+    height: 0.1rem;
+    background-color: var(--Soft-blue);
+    border-radius: 1rem;
+
+    margin: 1rem auto;
+}
