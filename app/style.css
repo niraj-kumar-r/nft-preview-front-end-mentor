@@ -26,8 +26,9 @@ body{
 
 .main-card{
     background-color: var(--very-dark-blue-card);
-    width: 18.5rem;
-    margin: 5rem auto;
+    width: 19rem;
+    height: 32.5rem;
+    margin: 7.5rem auto;
     padding-top: 1.25rem;
 
     border-radius: 0.5rem;
@@ -36,8 +37,8 @@ body{
 .image-equilibrium{
     /* border: 1.5rem solid red; */
     display: block;
-    width: 16rem;
-    margin: 0rem auto 2rem;
+    width: 16.5rem;
+    margin: 0rem auto 1.5rem;
 
     border-radius: 0.5rem;
     
@@ -52,6 +53,7 @@ body{
 
 .main-head{
     color: var(--white-accent);
+    font-size: 1.125rem;
     font-weight: 600;
     width: 16rem;
     margin: auto;
@@ -60,5 +62,6 @@ body{
 .description{
     font-weight: 300;
     width: 16rem;
-    margin: 2rem auto;
+    margin: 1rem auto;
+    font-size: 1rem;
 }
