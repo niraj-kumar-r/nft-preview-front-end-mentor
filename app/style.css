@@ -32,6 +32,11 @@ body{
     padding-top: 1.25rem;
 
     border-radius: 0.5rem;
+
+    /* box-shadow: 0 1rem 1rem 1rem hsl(213, 59%, 8.5%);*/
+    box-shadow: 
+        0 1.5rem 0.75rem 1rem hsl(217, 54%, 10%),
+        0 1.5rem 0.75rem 2.5rem hsl(217, 54%, 10.8%);
 }
 
 .image-equilibrium{
