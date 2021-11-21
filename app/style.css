@@ -65,3 +65,26 @@ body{
     margin: 1rem auto;
     font-size: 1rem;
 }
+
+.nft-info{
+    width: 16.5rem;
+    margin: auto;
+
+}
+
+.eth-amount{
+    background-color: black;
+    display: inline-block;
+    color: var(--Cyan);
+    font-size: 0.8rem;
+    font-weight: 400;
+
+}
+
+.days-left{
+    background-color: black;
+    display: inline-block;
+    margin: auto;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
