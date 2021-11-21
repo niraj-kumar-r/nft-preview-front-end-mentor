@@ -5,8 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="app/style.css">
   
-  <title>Frontend Mentor | NFT preview card component</title>
+  <title>Made by Niraj | Frontend Mentor | NFT preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,19 +22,57 @@
   </style>
 </head>
 <body>
+  <div class="main-card">
 
-  Equilibrium #3429
+    <div>
+      <img src="images/image-equilibrium.jpg" alt="image-equilibrium" class="image-equilibrium">
+    </div>
+    
+    <div class="main-head">
+    Equilibrium #3429
+    </div>
+    
+    <div class="description">
+    Our Equilibrium collection promotes balance and calm.
+    </div>
 
-  Our Equilibrium collection promotes balance and calm.
+    <div class="nft-info">
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+      <div class="eth-amount">
+        <img src="images/icon-ethereum.svg" alt="ethereum icon" class="eth-icon">
+        0.041 ETH
+      </div>
 
+      <div class="days-left">
+        <img src="images/icon-clock.svg" alt="clock icon" class="clock-icon">
+        3 days left
+      </div>
+
+      <div class="horizontal-line">
+
+      </div>
+    </div>
+    
+    <div class="credit-card-div">
+
+      <img src="images/image-avatar.png" alt="image avatar" class="image-avatar">
+
+      <div class="credit">
+        Creation of 
+        <div class="avatar-name">
+          Jules Wyvern
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+    
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/niraj-kumar-r/nft-preview-front-end-mentor">Niraj Kumar</a>.
   </div>
 </body>
 </html>

@@ -1,0 +1,151 @@
+:root{
+
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    --very-dark-blue-main: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --white-accent: hsl(0, 0%, 100%);
+
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--very-dark-blue-main);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem;
+    color: var(--Soft-blue);
+    font-weight: 300;
+
+}
+
+.main-card{
+    background-color: var(--very-dark-blue-card);
+    width: 19rem;
+    height: 32.5rem;
+    margin: 7.5rem auto;
+    padding-top: 1.25rem;
+
+    border-radius: 0.5rem;
+
+    /* box-shadow: 0 1rem 1rem 1rem hsl(213, 59%, 8.5%);*/
+    box-shadow: 
+        0 1.5rem 0.75rem 1rem hsl(217, 54%, 10%),
+        0 1.5rem 0.75rem 2.5rem hsl(217, 54%, 10.8%);
+}
+
+.image-equilibrium{
+    /* border: 1.5rem solid red; */
+    display: block;
+    width: 16.5rem;
+    margin: 0rem auto 1.5rem;
+
+    border-radius: 0.5rem;
+    
+
+    /* 
+    MARGIN AUTO WAS NOT WORKING FOR THE IMAGE
+    DUE TO DISPLAY INLINE, FOR IT TO BE CENTRED IN A DIV USE
+    display: block; 
+    */
+
+}
+
+.main-head{
+    color: var(--white-accent);
+    font-size: 1.125rem;
+    font-weight: 600;
+    width: 16rem;
+    margin: auto;
+}
+
+.description{
+    font-weight: 300;
+    width: 16rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+}
+
+.nft-info{
+    width: 16.5rem;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+.eth-amount{
+    /* background-color: black; */
+    display: inline-block;
+    color: var(--Cyan);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+
+}
+
+.eth-icon{
+    display: inline-block;
+    height: 0.9rem;
+    margin-right: 0.2rem;
+
+}
+
+.days-left{
+    /* background-color: black; */
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 400;
+    width: 5.4rem;
+    margin-left: 5.7rem;
+    
+}
+
+.clock-icon{
+    display: inline-block;
+    height: 0.9rem;
+    margin-right: 0.3rem;
+    vertical-align: sub;
+
+}
+
+.horizontal-line{
+    width: 16.5rem;
+    height: 0.1rem;
+    background-color: hsl(215, 24%, 25%);
+    border-radius: 1rem;
+
+    margin: 1rem auto 1.1rem;
+}
+
+.credit-card-div{
+    width: 16.5rem;
+    margin: auto;
+    /* background-color: black; */
+
+    position: relative;
+}
+
+.image-avatar{
+    width: 1.75rem;
+    display: inline-block;
+}
+
+.credit{
+    display: inline-block;
+    font-size: 0.9rem;
+    /* background-color: blue; */
+
+    position: absolute;
+    bottom: 25%;
+    left: 2.75rem;
+
+}
+
+.avatar-name{
+    display: inline;
+    color: var(--white-accent);
+}
