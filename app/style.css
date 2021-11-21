@@ -110,8 +110,37 @@ body{
 .horizontal-line{
     width: 16.5rem;
     height: 0.1rem;
-    background-color: var(--Soft-blue);
+    background-color: hsl(215, 24%, 25%);
     border-radius: 1rem;
 
-    margin: 1rem auto;
+    margin: 1rem auto 1.1rem;
+}
+
+.credit-card-div{
+    width: 16.5rem;
+    margin: auto;
+    /* background-color: black; */
+
+    position: relative;
+}
+
+.image-avatar{
+    width: 1.75rem;
+    display: inline-block;
+}
+
+.credit{
+    display: inline-block;
+    font-size: 0.9rem;
+    /* background-color: blue; */
+
+    position: absolute;
+    bottom: 25%;
+    left: 2.75rem;
+
+}
+
+.avatar-name{
+    display: inline;
+    color: var(--white-accent);
 }
