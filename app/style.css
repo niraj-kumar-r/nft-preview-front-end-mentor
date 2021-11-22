@@ -33,7 +33,6 @@ body{
 
     border-radius: 0.5rem;
 
-    /* box-shadow: 0 1rem 1rem 1rem hsl(213, 59%, 8.5%);*/
     box-shadow: 
         0 1.5rem 0.75rem 1rem hsl(217, 54%, 10%),
         0 1.5rem 0.75rem 2.5rem hsl(217, 54%, 10.8%);
@@ -60,8 +59,14 @@ body{
     color: var(--white-accent);
     font-size: 1.125rem;
     font-weight: 600;
-    width: 16rem;
-    margin: auto;
+    width: 9.4rem;
+    margin-left: 1.5rem;
+}
+
+.main-head:hover,
+.main-head:focus{
+    color: var(--Cyan);
+    cursor: pointer;
 }
 
 .description{
@@ -148,4 +153,10 @@ body{
 .avatar-name{
     display: inline;
     color: var(--white-accent);
+}
+
+.avatar-name:hover,
+.avatar-name:focus{
+    color: var(--Cyan);
+    cursor: pointer;
 }
