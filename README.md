@@ -37,7 +37,7 @@ Mobile-hover-state
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/nft-preview-challenge-by-a-newbie-without-flex-and-grid-GDLHiNwsB)
 - Live Site URL: [Nft-preview-live-site](https://niraj-kumar-nft-preview.netlify.app/)
 
 ## My process
