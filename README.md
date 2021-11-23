@@ -46,6 +46,8 @@ Mobile-hover-state
 
 - Semantic HTML5 markup
 - CSS custom properties
+
+
 ### What I learned
 
 1) I learn't how to vertically center an image inside a div, without flex (I haven't started flexbox or grid as of 23rd Nov 2021, so I wanted to use only plain css, and stuff I already know, to complete this project for now)
@@ -65,7 +67,9 @@ Mobile-hover-state
   transform: translateX(-50%) translateY(-50%);
 }
 ```
+
 2) I learn't that ::before and ::after pseudo elements don't work, on img tags, as they don't have any text content.
+
 
 3) I learn't how to use the hover selector to do thing to a class other than te one over which hovering is done.
 ```css
@@ -83,7 +87,6 @@ Mobile-hover-state
 
 - [How to center an image inside a div, both horizontally,and vertically](https://www.freecodecamp.org/news/how-to-center-an-image-in-css/) - This is an amazing article which helped me to vertically center an image inside a div. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
