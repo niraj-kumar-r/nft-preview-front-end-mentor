@@ -36,6 +36,13 @@ body{
     box-shadow: 
         0 1.5rem 0.75rem 1rem hsl(217, 54%, 10%),
         0 1.5rem 0.75rem 2.5rem hsl(217, 54%, 10.8%);
+    }
+    
+    
+.image{
+    position: relative;
+    width: 16.5rem;
+    margin: 0rem auto 1.5rem;
 }
 
 .image-equilibrium{
@@ -53,6 +60,28 @@ body{
     display: block; 
     */
 
+}
+
+
+
+.image-equilibrium-overlay{
+    
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: block;
+    width: 16.5rem;
+    margin: 0rem auto 1.5rem;
+    border-radius: 0.5rem;
+    
+    position: absolute;
+    
+    opacity: 0;
+    
+}
+
+.image:hover .image-equilibrium-overlay{
+    cursor: pointer;
+    opacity: 1;
+    
 }
 
 .main-head{
